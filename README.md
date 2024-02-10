@@ -8,6 +8,9 @@ Finetune stable video diffusion(`image-to-video` model).
 
 The original dataset is ShapeNet, and the method for processing it into videos is referenced [binvox_rw](https://github.com/wangqiang9/binvox_rw). I processed 1k image-to-3D datasets and attempted to finetune the effect of reproducing SVD-MV. I am trying to add more data to train and opensource it up in the future.
 
+## Text-to-Video
+The `Text-to-Video` Training code will be release soon.
+
 ## Datasets
 The `train.csv` file format is as follows:
 ```
