@@ -23,11 +23,14 @@ video_path
 ...
 ```
 
-## Start
+## Installation
 ```
+conda create -n finetune_svd python=3.8
+conda activate finetune_svd
 pip install -r requirements.txt
 ```
 
+## Train
 ```
 python train.py
 ```
@@ -35,3 +38,6 @@ python train.py
 # Acknowledgements
 * [diffusers](https://github.com/huggingface/diffusers)
 * [Text-To-Video-Finetuning](https://github.com/ExponentialML/Text-To-Video-Finetuning)
+
+## Contact
+If you have any questions about the code, please contact wanqqiang@bupt.edu.cn 
