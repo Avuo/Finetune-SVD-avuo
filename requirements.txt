@@ -31,7 +31,7 @@ jsonlines==4.0.0
 lightning-utilities==0.10.0
 lit==17.0.6
 MarkupSafe==2.1.3
-mpi4py @ file:///croot/mpi4py_1671223370575/work
+mpi4py
 mpmath==1.3.0
 multidict==6.0.4
 mypy-extensions==1.0.0
