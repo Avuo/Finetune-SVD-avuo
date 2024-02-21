@@ -9,7 +9,7 @@ Finetune stable video diffusion(`image-to-video` model).
 The original dataset is ShapeNet, and the method for processing it into videos is referenced [binvox_rw](https://github.com/wangqiang9/binvox_rw). I processed 1k image-to-3D datasets and attempted to finetune the effect of reproducing SVD-MV. I am trying to add more datas to train and opensource it up in the future.
 
 ## Text-to-Video
-I Trained on the `WebVid-10M` dataset and obtained in the `text-to-video` model.
+I Trained on the `WebVid-10M` dataset and obtained in the `text-to-video` model, replace text embeddings that are fed into the base model with the CLIP image embedding of the conditioning.
 | Prompt        | Result Video |
 |---------------|-----------------------------|
 | Pine trees forest in winter, view from above | ![demo1](https://github.com/wangqiang9/Finetune-SVD/blob/main/data/10032980_Pine_trees_forest_in_winter%2C_view_from_above.gif) |
