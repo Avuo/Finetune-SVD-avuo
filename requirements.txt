@@ -89,7 +89,7 @@ thrift==0.16.0
 thriftpy2==0.4.16
 tokenizers==0.15.0
 tomli==2.0.1
-torch==2.0.0
+torch==2.1.2
 torchmetrics==1.2.1
 torchvision==0.16.2
 tqdm==4.66.1
@@ -100,6 +100,6 @@ typing_extensions==4.9.0
 tzdata==2023.3
 urllib3==2.1.0
 wcwidth==0.2.12
-xformers==0.0.19
+xformers
 yarl==1.9.4
 zipp==3.17.0
