@@ -1,6 +1,6 @@
 # Pretrained diffusers model path.
 
-pretrained_model_path: "stable-video-diffusion-img2vid"
+pretrained_model_path: "stabilityai/stable-video-diffusion-img2vid"
 
 # The folder where your training outputs will be placed.
 output_dir: "./output_models"
